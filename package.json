@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "node-sass sass/style.scss css/style.css --watch",
+    "compile": "node-sass sass/style.scss css/style.css"
   },
   "author": "amanda taheri",
   "license": "ISC"
