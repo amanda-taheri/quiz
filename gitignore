@@ -1,36 +1,19 @@
-
-
+# macOS
 .DS_Store
 .AppleDouble
 .LSOverride
-
-Icon^M
-
+Icon?
 ._*
 
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
 
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Node.js / Web
+node_modules/
 
-*node_modules/*
-
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
-
-.history/
-
-
+# VS Code
+.vscode/
